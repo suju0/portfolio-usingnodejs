@@ -1,0 +1,76 @@
+@font-face {
+    font-family: poppins;
+    src: url(poppins.woff/Poppins-ExtraLight.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: poppins;
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+nav, .navlinks{
+    display: flex;
+    
+}
+/* nav, .navbar{
+    position: fixed;
+    margin-top: 30px;
+    margin-left: 250px;
+} */
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.navlinks{
+    list-style: none;
+    gap: 3rem;
+    font-size: 1.5rem;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+.navlinks a:hover{
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+#profile, .profile-photo{
+    display: flex;
+    height: 500px;
+    width: auto;
+    padding-left: 80px;
+}
+
+.text{
+    justify-content: space-around;
+    align-items: right;
+    padding-left: 200px;
+    padding-top: 200px;
+}
+.v1{
+    border-left: 6px solid  rgb(68, 3, 3);
+    height: 500px;
+    margin-left: 100px;
+}
+#experience, .aboutMe{
+    padding-top: 50px;
+}
+.heading1{
+    text-align: center;
+}
+
+
